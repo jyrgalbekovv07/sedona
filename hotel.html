@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hotels</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/nouislifer/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="container">
+
+     <header>
+         <nav class="header-nav">
+             <ul class="header-ul">
+                 <li class="header-li"><a class="header-link" href="index.html">информация</a></li>
+                 <li class="header-li"><a class="header-link" href="index.html#photo">фото и видео</a></li>
+                 <li class="empty-li"></li>
+                 <li class="header-li"><a class="header-link" href="#">карта штата</a></li>
+                 <li class="header-li"><a class="header-link" href="#">гостиницы</a></li>
+             </ul>
+             <img class="header-img" src="images/logo.svg" alt="logo">
+         </nav>
+     </header>
+
+     <div class="sedona">
+          <div class="row sedona-row">
+              <div class="sedona-checkboxes">
+                  <div class="sedona-col">
+                      <div class="sedona-title">Инфраструктура:</div>
+                      <label class="sedona-label">
+                          <input class="sedona-input" type="checkbox">
+                          <span class="sedona-span">Бассейн</span>
+                      </label>
+                      <label class="sedona-label">
+                          <input disabled class="sedona-input" type="checkbox">
+                          <span class="sedona-span">Парковка</span>
+                      </label>
+                      <label class="sedona-label">
+                          <input disabled checked class="sedona-input" type="checkbox">
+                          <span class="sedona-span">Wi-Fi</span>
+                      </label>
+                  </div>
+
+                  <div class="sedona-col">
+                      <div class="sedona-title">Тип жилья:</div>
+                      <label class="sedona-label">
+                          <input class="sedona-input" type="checkbox">
+                          <span class="sedona-span">ГостиницА</span>
+                      </label>
+                      <label class="sedona-label">
+                          <input class="sedona-input" type="checkbox">
+                          <span class="sedona-span">МОТЕЛЬ</span>
+                      </label>
+                      <label class="sedona-label">
+                          <input class="sedona-input" type="checkbox">
+                          <span class="sedona-span">АПАРТАМЕНТЫ</span>
+                      </label>
+                  </div>
+              </div>
+
+              <div class="pricing">
+                  <div class="pricing-title">Стоимость в сутки (Р):</div>
+                 <div class="pricing-input-focus">
+                     <label>
+                         <input readonly class="pricing-input pricing-input-from" type="text" value="ОТ 0">
+                     </label>
+                     <label>
+                         <input readonly class="pricing-input pricing-input-to" type="text" value="ДО 3000">
+                     </label>
+                 </div>
+                  <div id="slider"></div>
+                  <div class="pricing-input-search">
+                      <label>
+                          <input class="pricing-input-search-1" type="text" value="Показать">
+                      </label>
+                  </div>
+              </div>
+          </div>
+     </div>
+
+     <div class="search">
+         <div class="search-block">
+             <div class="search-title">
+                 Найдено: 3
+             </div>
+             <nav class="search-nav">
+                 <ul class="search-ul">
+                     <li class="search-li"><a class="search-link-a" href="#">Сортировка:</a></li>
+                     <li class="search-li"><a class="search-link-a-1" href="#">По цене</a></li>
+                     <li class="search-li"><a class="search-link" href="#">По типу</a></li>
+                     <li class="search-li"><a class="search-link" href="#">По рейтингу</a></li>
+                 </ul>
+             </nav>
+         </div>
+         <div class="search-img">
+             <img class="search-img-up" src="images/icon-up-dir.svg" alt="up">
+             <img src="images/icon-down-dir.svg" alt="down">
+         </div>
+     </div>
+
+     <div class="resort">
+
+         <div class="resort-block-img-title">
+
+             <img class="resort-img" src="images/Layer%2021.png" alt="photo" >
+
+             <div class="resort-block">
+                 <div class="resort-title">
+                     Amara Resort & Spa
+                 </div>
+                 <div class="resort-block-text">
+                     <div class="resort-text">
+                         Гостиница
+                     </div>
+                     <div class="resort-text-2">
+                         От 4000 Р.
+                     </div>
+                 </div>
+                 <div class="resort-block-button">
+                     <button class="resort-button">
+                         Подробнее
+                     </button>
+                     <button class="resort-button-1">
+                         Забронировать
+                     </button>
+                 </div>
+             </div>
+         </div>
+         <div class="resort-block-two">
+             <div class="resort-block-img">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+             </div>
+             <label>
+                 <input class="resort-input" type="text" placeholder="Рейтинг: 8,5">
+             </label>
+         </div>
+
+     </div>
+     <div class="resort">
+
+         <div class="resort-block-img-title">
+
+             <img class="resort-img" src="images/Layer%2089%20copy.png" alt="photo" >
+
+             <div class="resort-block">
+                 <div class="resort-title">
+                     Desert Quail Inn
+                 </div>
+                 <div class="resort-block-text">
+                     <div class="resort-text">
+                         Мотель
+                     </div>
+                     <div class="resort-text-2">
+                         От 3000 Р.
+                     </div>
+                 </div>
+                 <div class="resort-block-button">
+                     <button class="resort-button">
+                         Подробнее
+                     </button>
+                     <button class="resort-button-1">
+                         Забронировать
+                     </button>
+                 </div>
+             </div>
+         </div>
+         <div class="resort-block-two">
+             <div class="resort-block-img">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+             </div>
+             <label>
+                 <input class="resort-input" type="text" placeholder="Рейтинг: 8,9">
+             </label>
+         </div>
+
+     </div>
+     <div class="resort">
+
+         <div class="resort-block-img-title">
+
+             <img class="resort-img" src="images/Rectangle.png" alt="photo" >
+
+             <div class="resort-block">
+                 <div class="resort-title">
+                     Villas at Poco Diablo
+                 </div>
+                 <div class="resort-block-text">
+                     <div class="resort-text">
+                         Апартаменты
+                     </div>
+                     <div class="resort-text-2">
+                         От 2000 Р.
+                     </div>
+                 </div>
+                 <div class="resort-block-button">
+                     <button class="resort-button">
+                         Подробнее
+                     </button>
+                     <button class="resort-button-1">
+                         Забронировать
+                     </button>
+                 </div>
+             </div>
+         </div>
+         <div class="resort-block-two">
+             <div class="resort-block-img">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+                 <img class="resort-img-1" src="images/star.svg" alt="star">
+             </div>
+             <label>
+                 <input class="resort-input" type="text" placeholder="Рейтинг: 9,2">
+             </label>
+         </div>
+
+     </div>
+
+     <div class="footer-hotels">
+         <div class="footer-hotels-title">
+             <div class="footer-hotels-number">
+                 ТЕЛ: +7(495) 666-01-66
+             </div>
+         </div>
+             <div class="footer-hotels-img">
+                 <img class="link" src="images/twitter.svg" alt="twitter">
+                 <img class="link" src="images/fb-icon.svg" alt="facebook">
+                 <img class="link" src="images/youtube.svg" alt="youtube">
+             </div>
+
+             <div class="footer-hotels-text">
+                 #visitSEDONA
+             </div>
+
+     </div>
+ </div>
+
+
+
+
+
+
+
+ <script src="libs/nouislifer/nouislider.min.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>
