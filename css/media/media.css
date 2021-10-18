@@ -189,13 +189,13 @@
         max-width: 375px;
     }
     .maps-title-bg {
-        max-width: 375px;
+        width: 100%;
         margin: 0;
         font-size: 18px;
         padding: 30px 33px;
     }
     .maps-date {
-        max-width: 375px;
+        width: 100%;
         margin: 0;
         padding: 31px;
     }
@@ -217,6 +217,9 @@
     .footer-title {
         padding: 17px;
         display: grid;
+    }
+    .maps-container {
+        max-width: 375px;
     }
 
 }
