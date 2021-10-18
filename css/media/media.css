@@ -118,10 +118,10 @@
 @media (max-width: 576px) {
 /*from 320px to 576px*/
     .container {
-        width: 320px;
+        width: 375px;
     }
     .header-nav {
-        width: 320px;
+        width: 375px;
     }
     .header-img {
         width: 130px;
@@ -137,7 +137,7 @@
         width: 280px;
     }
     .welcome-ss {
-        width: 320px;
+        width: 375px;
     }
     .welcomes-text {
         max-width: 280px;
@@ -186,21 +186,21 @@
         font-size: 20px;
     }
     .maps-card {
-        max-width: 320px;
+        max-width: 375px;
     }
     .maps-title-bg {
-        max-width: 320px;
+        max-width: 375px;
         margin: 0;
         font-size: 18px;
         padding: 30px 33px;
     }
     .maps-date {
-        max-width: 320px;
+        max-width: 375px;
         margin: 0;
         padding: 31px;
     }
     .maps-button {
-        padding: 10px 91px;
+        padding: 10px 122px;
     }
     .date {
         margin-bottom: 18px;
