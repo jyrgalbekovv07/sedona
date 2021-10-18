@@ -1,0 +1,222 @@
+@media (max-width: 1200px) {
+    /*from 993px to 1200px*/
+    .container {
+        max-width: 993px;
+    }
+    header {
+        width: 993px;
+    }
+    .welcome-ss {
+        width: 993px;
+    }
+    .maps-card {
+        max-width: 993px;
+    }
+}
+@media (max-width: 993px) {
+/*from 768px to 993px*/
+    .container {
+        max-width: 768px;
+    }
+    header {
+        width: 768px;
+    }
+    .header-img {
+        width: 120px;
+    }
+    .header-ul {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+    .welcome-ss {
+        width: 768px;
+    }
+    .welcome-sodana {
+        width: 425px;
+    }
+    .maps-card {
+        max-width: 768px;
+    }
+}
+@media (max-width: 768px) {
+/*from 576px to 768px*/
+    .container {
+        width: 576px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-66 {
+        width: 100%;
+    }
+    .header {
+        width: 576px;
+    }
+    .header-nav {
+        width: 576px;
+    }
+    .welcome-ss {
+        width: 576px;
+    }
+    .welcome-sodana {
+        width: 415px;
+    }
+    .maps-card {
+        max-width: 576px;
+    }
+    .maps-title-bg {
+        width: 80%;
+        margin: 0 auto;
+        height: 85px;
+        padding: 30px 77px;
+    }
+    .maps-date {
+        width: 80%;
+        margin: 0 auto;
+        padding: 48px;
+    }
+    .maps-button {
+        padding: 14px 145px;
+    }
+    .maps-span {
+        font-size: 12px;
+    }
+    .maps-span-2 {
+        font-size: 12px;
+    }
+    .maps-label-span {
+        font-size: 12px;
+    }
+
+    .maps-label-input {
+        margin-left: 31px;
+        margin-bottom: 28px;
+    }
+    .maps-label-span-1 {
+        font-size: 12px;
+        padding: 0;
+    }
+    .maps-label-input-1 {
+        margin-left: 60px;
+    }
+    .footer-number {
+        font-size: 15px;
+    }
+    .footer-text {
+        font-size: 15px;
+    }
+    .link {
+        width: 35px;
+    }
+
+}
+@media (max-width: 576px) {
+/*from 320px to 576px*/
+    .container {
+        width: 320px;
+    }
+    .header-nav {
+        width: 320px;
+    }
+    .header-img {
+        width: 130px;
+    }
+    .welcome-title {
+        padding: 61px 0 72px;
+    }
+    .welcome-pot {
+        width: 200px;
+        margin-bottom: 51px;
+    }
+    .welcome-sodana {
+        width: 280px;
+    }
+    .welcome-ss {
+        width: 320px;
+    }
+    .welcomes-text {
+        max-width: 280px;
+        font-size: 16px;
+    }
+    .welcomes-text-2 {
+        max-width: 250px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .help-text {
+        font-size: 18px;
+    }
+    .help-text-2 {
+        max-width: 250px;
+        font-size: 12px;
+    }
+    .help-title {
+        padding: 34px 0 30px;
+        min-height: 215px;
+    }
+    .block-title {
+        padding: 26px 0 18px;
+    }
+    .block-img {
+        margin-bottom: 20px;
+    }
+    .block-2-title {
+        padding: 34px 0 30px;
+    }
+    .block-2-text {
+        font-size: 18px;
+    }
+    .block-2-text-2 {
+        max-width: 250px;
+        font-size: 12px;
+    }
+    .about-title {
+        padding: 26px 0 18px;
+    }
+    .about-text {
+        margin-bottom: 10px;
+    }
+    .maps-text {
+        font-size: 20px;
+    }
+    .maps-card {
+        max-width: 320px;
+    }
+    .maps-title-bg {
+        max-width: 320px;
+        margin: 0;
+        font-size: 18px;
+        padding: 30px 33px;
+    }
+    .maps-date {
+        max-width: 320px;
+        margin: 0;
+        padding: 31px;
+    }
+    .maps-button {
+        padding: 10px 91px;
+    }
+    .date {
+        margin-bottom: 18px;
+    }
+    .maps-label-input {
+        margin-left: 18px;
+    }
+    .maps-label-input-1 {
+        margin-left: 46px;
+    }
+    .maps-label-block {
+        margin-bottom: 38px;
+    }
+    .footer-title {
+        padding: 17px;
+        display: grid;
+    }
+
+}
